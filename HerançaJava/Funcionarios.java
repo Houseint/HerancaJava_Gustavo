@@ -35,16 +35,16 @@ public class Funcionarios {
         this.salario = salario;
     }
     public Funcionarios(){}
-    public class mostrarDados{
+    
         public void mostrarDados() {
             System.out.println("Nome do funcionário: " + nome);
             System.out.println("Departamento do funcionário: " + departamento);
             System.out.println("Salário do funcionário: " + salario);
         }
-    }
-    public class baterPonto{
+    
+    
         public void baterPonto(){
-            System.out.println("O funcionário "+nome+" bateu seu ponto.");
+            System.out.println("O funcionário "+nome+" do departamento "+departamento+" bateu seu ponto.");
         }
-    }
+    
 }
