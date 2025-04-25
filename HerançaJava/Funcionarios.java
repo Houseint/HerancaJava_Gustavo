@@ -1,14 +1,18 @@
 package HerançaJava;
 
-public class Funcionarios {
+public class Funcionarios implements Pessoa  {
     private String nome;
     private String departamento;
     private double salario;
+    private String cpf;
+    private String dataNascimento;
 
-    public Funcionarios(String nome, String departamento, double salario) {
+    public Funcionarios(String nome, String departamento, double salario, String cpf, String dataNascimento) {
         this.nome = nome;
         this.departamento = departamento;
         this.salario = salario;
+        this.cpf= cpf;
+        this.dataNascimento= dataNascimento;
     }
 
     public String getNome() {
@@ -34,6 +38,30 @@ public class Funcionarios {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+    @Override
+    public String getCpf() {
+        return cpf;
+    }
+    @Override
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+    @Override
+    public String getdataNascimento() {
+        return dataNascimento;
+    }
+    @Override
+    public void setdataNascimento(String dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+    
+        public Funcionarios(String nome, String departamento, double salario) {
+            this.nome = nome;
+            this.departamento = departamento;
+            this.salario = salario;
+        }
+    
+        
     public Funcionarios(){}
     
         public void mostrarDados() {
