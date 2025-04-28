@@ -1,2 +1,2 @@
 # HerancaJava_Gustavo
-Léo, vou conseguir gravar o video só domingo blz
+Vídeo: https://youtu.be/8hQAGvyVddE?feature=shared
